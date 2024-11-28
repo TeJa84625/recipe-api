@@ -1,0 +1,16 @@
+{
+    "recipes": [
+        {
+            "name": "Pancakes",
+            "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder"]
+        },
+        {
+            "name": "Spaghetti Bolognese",
+            "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"]
+        },
+        {
+            "name": "Caesar Salad",
+            "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"]
+        }
+    ]
+}

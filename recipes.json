@@ -11,6 +11,10 @@
         {
             "name": "Caesar Salad",
             "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"]
+        },
+        {
+            "name": "Chicken",
+            "ingredients": ["chicken", "masala", "tomato", "onion", "garlic"]
         }
     ]
 }

@@ -1,32 +1,28 @@
 {
-    "recipes": [
-        {
-            "name": "Pancakes",
+    "recipes": {
+        "Pancakes": {
             "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Pancakes.jpg?raw=true",
             "description": "Fluffy and delicious pancakes, perfect for breakfast.",
             "code": "R001"
         },
-        {
-            "name": "Spaghetti Bolognese",
+        "Spaghetti Bolognese" : {
             "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Spaghetti%20Bolognese.jpeg?raw=true",
             "description": "Classic Italian pasta dish with a rich meat sauce.",
             "code": "R002"
         },
-        {
-            "name": "Caesar Salad",
+        "Caesar Salad" : {
             "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Caesar%20Salad.jpeg?raw=true",
             "description": "Crispy and fresh Caesar salad with creamy dressing.",
             "code": "R003"
         },
-        {
-            "name": "Chicken",
+        "Chicken" : {
             "ingredients": ["chicken", "masala", "tomato", "onion", "garlic"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Chicken.jpeg?raw=true",
             "description": "Spicy and flavorful chicken masala dish.",
             "code": "R004"
         }
-    ]
+    }
 }

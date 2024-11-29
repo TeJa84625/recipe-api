@@ -2,19 +2,31 @@
     "recipes": [
         {
             "name": "Pancakes",
-            "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder"]
+            "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder"],
+            "image": "https://example.com/images/pancakes.jpg",
+            "description": "Fluffy and delicious pancakes, perfect for breakfast.",
+            "code": "R001"
         },
         {
             "name": "Spaghetti Bolognese",
-            "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"]
+            "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"],
+            "image": "https://example.com/images/spaghetti.jpg",
+            "description": "Classic Italian pasta dish with a rich meat sauce.",
+            "code": "R002"
         },
         {
             "name": "Caesar Salad",
-            "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"]
+            "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"],
+            "image": "https://example.com/images/caesar_salad.jpg",
+            "description": "Crispy and fresh Caesar salad with creamy dressing.",
+            "code": "R003"
         },
         {
             "name": "Chicken",
-            "ingredients": ["chicken", "masala", "tomato", "onion", "garlic"]
+            "ingredients": ["chicken", "masala", "tomato", "onion", "garlic"],
+            "image": "https://example.com/images/chicken.jpg",
+            "description": "Spicy and flavorful chicken masala dish.",
+            "code": "R004"
         }
     ]
 }

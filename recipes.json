@@ -1,27 +1,31 @@
 {
     "recipes": {
         "Pancakes": {
+            "slots": ["sugar", "salt", "baking powder", "flour", "other"],
             "ingredients": ["flour", "milk", "eggs", "sugar", "baking powder"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Pancakes.jpg?raw=true",
-            "description": "Fluffy and delicious pancakes, perfect for breakfast.",
+            "description": "Fluffy and delicious pancakes, perfect for breakfast. These pancakes are quick to make and provide a rich source of carbohydrates and proteins. To prepare, mix all the ingredients into a smooth batter, cook on a hot griddle until golden brown, and serve with your favorite toppings like syrup, fruits, or nuts.",
             "code": "R001"
         },
-        "Spaghetti Bolognese" : {
+        "Spaghetti Bolognese": {
+            "slots": ["salt", "chilli powder", "pepper", "garlic powder", "other"],
             "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onion", "garlic"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Spaghetti%20Bolognese.jpeg?raw=true",
-            "description": "Classic Italian pasta dish with a rich meat sauce.",
+            "description": "Classic Italian pasta dish with a rich meat sauce. This dish is hearty and satisfying, providing protein and energy. To make it, sauté onions and garlic, add ground beef until browned, mix in tomato sauce and spices, then simmer to enhance the flavors. Serve over cooked spaghetti and garnish with Parmesan cheese.",
             "code": "R002"
         },
-        "Caesar Salad" : {
+        "Caesar Salad": {
+            "slots": ["pepper", "salt", "garlic powder", "parmesan", "other"],
             "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Caesar%20Salad.jpeg?raw=true",
-            "description": "Crispy and fresh Caesar salad with creamy dressing.",
+            "description": "Crispy and fresh Caesar salad with creamy dressing. A refreshing salad that's easy to prepare and loaded with fiber and vitamins. To assemble, toss romaine lettuce with Caesar dressing, sprinkle with Parmesan cheese, and top with crunchy croutons. Serve as a side dish or a light main course.",
             "code": "R003"
         },
-        "Chicken" : {
+        "Chicken": {
+            "slots": ["chilli powder", "salt", "masala", "turmeric", "cumin"],
             "ingredients": ["chicken", "masala", "tomato", "onion", "garlic"],
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Chicken.jpeg?raw=true",
-            "description": "Spicy and flavorful chicken masala dish.",
+            "description": "Spicy and flavorful chicken masala dish. This recipe is packed with rich flavors and spices, making it a comforting and nutritious meal. Start by sautéing onions and garlic, add chopped tomatoes, spices, and chicken. Cook until the chicken is tender, and the sauce is thick and flavorful. Serve with rice or bread for a wholesome experience.",
             "code": "R004"
         }
     }

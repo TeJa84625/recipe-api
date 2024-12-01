@@ -1,4 +1,6 @@
-{
+{    
+    "login": ["https://docs.google.com/spreadsheets/d/","1ggyJ8HwWVxftmGf_ALk6f3cPxlBYsdLrEnQ8oyBB7S0","/export?format=csv"],
+    "register": ["https://docs.google.com/forms/d/","1cJqIxQOXw7dmG41txX8-141emMv8e-yhWwOs5YdZdO4/formResponse?","//fname,lname,mid,uid,pass//"],
     "recipes": {
         "Pancakes": {
             "slots": ["sugar", "salt", "baking powder", "flour", "other"],

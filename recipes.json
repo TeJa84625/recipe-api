@@ -69,6 +69,20 @@
             "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Chicken.jpeg?raw=true",
             "description": "Spicy and flavorful chicken masala dish. This recipe is packed with rich spices and flavors, making it a comforting and nutritious meal. To prepare, sauté onions, garlic, and ginger in oil until golden. Add tomatoes and cook until soft. Stir in spices and chicken, and cook on medium heat until tender. Add water for a gravy consistency if desired. Serve with rice or bread for a wholesome experience.",
             "code": "R004"
+        },
+        "Tea": {
+            "slots": ["water", "milk", "tea leaves", "sugar", "other"],
+            "ingredients": {
+                "water": "1 cup",
+                "milk": "1 cup",
+                "tea leaves": "2 teaspoons",
+                "sugar": "2 teaspoons (adjust to taste)",
+                "ginger": "1-inch piece (optional)",
+                "cardamom": "2 pods (optional)"
+            },
+        "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Tea.jpg?raw=true",
+        "description": "A warm and aromatic tea, perfect for rejuvenating your senses. This tea is quick to prepare and offers a comforting blend of flavors. To prepare, bring water, ginger, and cardamom to a boil in a pot. Add tea leaves and simmer for 2 minutes. Add milk and sugar, bring it to a boil again, and then strain into cups. Serve hot with biscuits or snacks.",
+        "code": "T001"
         }
     }
 }

@@ -1,4 +1,5 @@
 { 
+    "version": "V 1.1",
     "recipes": {
         "Pancakes": {
             "slots": ["sugar", "salt", "baking powder", "flour", "other"],

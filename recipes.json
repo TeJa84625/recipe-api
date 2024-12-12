@@ -55,7 +55,7 @@
             "code": "R003"
         },
         "Chicken": {
-            "type": ["nonveg","meal"],
+            "type": ["non","meal"],
             "slots": ["chilli powder", "salt", "masala", "turmeric", "cumin"],
             "ingredients": {
                 "chicken": "1 kg (cut into pieces)",

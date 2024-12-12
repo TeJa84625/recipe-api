@@ -1,129 +1,122 @@
 {
-  version: "V 1.1",
-  recipes: {
-    Pancakes: {
-      type: ["veg", "breakfast", "normal"],
-      slots: ["sugar", "salt", "baking powder", "flour", "other"],
-      ingredients: {
-        flour: "2 cups",
-        milk: "1.5 cups",
-        eggs: "2 large",
-        sugar: "2 tablespoons",
-        bakingPowder: "1 tablespoon",
-        butter: "2 tablespoons (melted)",
-        vanillaExtract: "1 teaspoon (optional)",
-        salt: "1/4 teaspoon",
+  "version": "V 1.1",
+  "recipes": {
+    "Pancakes": {
+      "type": ["veg", "breakfast", "normal"],
+      "slots": ["sugar", "salt", "baking powder", "flour", "other"],
+      "ingredients": {
+        "flour": "2 cups",
+        "milk": "1.5 cups",
+        "eggs": "2 large",
+        "sugar": "2 tablespoons",
+        "bakingPowder": "1 tablespoon",
+        "butter": "2 tablespoons (melted)",
+        "vanillaExtract": "1 teaspoon (optional)",
+        "salt": "1/4 teaspoon"
       },
-      image: "https://github.com/TeJa84625/recipe-api/blob/main/images/Pancakes.jpg?raw=true",
-      description:
-        "Fluffy and delicious pancakes, perfect for breakfast. Mix all the dry ingredients in a bowl, whisk in the wet ingredients until smooth, and cook on a preheated griddle until golden brown. Serve with syrup, fruits, or nuts for a delightful meal.",
-      code: "R001",
+      "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Pancakes.jpg?raw=true",
+      "description": "Fluffy and delicious pancakes, perfect for breakfast. Mix all the dry ingredients in a bowl, whisk in the wet ingredients until smooth, and cook on a preheated griddle until golden brown. Serve with syrup, fruits, or nuts for a delightful meal.",
+      "code": "R001"
     },
-    SpaghettiBolognese: {
-      type: ["non", "meal", "normal"],
-      slots: ["salt", "chilli powder", "pepper", "garlic powder", "other"],
-      ingredients: {
-        spaghetti: "300 grams",
-        groundBeef: "500 grams",
-        tomatoSauce: "2 cups",
-        onion: "1 large (finely chopped)",
-        garlic: "3 cloves (minced)",
-        oliveOil: "2 tablespoons",
-        salt: "1 teaspoon (or to taste)",
-        pepper: "1/2 teaspoon",
-        chilliPowder: "1/2 teaspoon",
-        italianHerbs: "1 teaspoon",
-        parmesanCheese: "1/4 cup (grated, for garnish)",
+    "SpaghettiBolognese": {
+      "type": ["non-veg", "meal", "normal"],
+      "slots": ["salt", "chilli powder", "pepper", "garlic powder", "other"],
+      "ingredients": {
+        "spaghetti": "300 grams",
+        "groundBeef": "500 grams",
+        "tomatoSauce": "2 cups",
+        "onion": "1 large (finely chopped)",
+        "garlic": "3 cloves (minced)",
+        "oliveOil": "2 tablespoons",
+        "salt": "1 teaspoon (or to taste)",
+        "pepper": "1/2 teaspoon",
+        "chilliPowder": "1/2 teaspoon",
+        "italianHerbs": "1 teaspoon",
+        "parmesanCheese": "1/4 cup (grated, for garnish)"
       },
-      image: "https://github.com/TeJa84625/recipe-api/blob/main/images/Spaghetti%20Bolognese.jpeg?raw=true",
-      description:
-        "Classic Italian pasta dish with a rich meat sauce. Sauté onions and garlic in olive oil, add ground beef and cook until browned. Stir in tomato sauce, herbs, and spices, then simmer for 15 minutes. Cook the spaghetti, drain, and mix with the sauce. Garnish with Parmesan cheese before serving.",
-      code: "R002",
+      "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Spaghetti%20Bolognese.jpeg?raw=true",
+      "description": "Classic Italian pasta dish with a rich meat sauce. Sauté onions and garlic in olive oil, add ground beef and cook until browned. Stir in tomato sauce, herbs, and spices, then simmer for 15 minutes. Cook the spaghetti, drain, and mix with the sauce. Garnish with Parmesan cheese before serving.",
+      "code": "R002"
     },
-    CaesarSalad: {
-      type: ["veg", "meal", "normal"],
-      slots: ["pepper", "salt", "garlic powder", "parmesan", "other"],
-      ingredients: {
-        romaineLettuce: "1 head (chopped)",
-        croutons: "1 cup",
-        parmesanCheese: "1/4 cup (grated)",
-        caesarDressing: "1/2 cup",
-        garlicPowder: "1/4 teaspoon",
-        pepper: "1/4 teaspoon",
-        oliveOil: "1 tablespoon (optional for croutons)",
+    "CaesarSalad": {
+      "type": ["veg", "meal", "normal"],
+      "slots": ["pepper", "salt", "garlic powder", "parmesan", "other"],
+      "ingredients": {
+        "romaineLettuce": "1 head (chopped)",
+        "croutons": "1 cup",
+        "parmesanCheese": "1/4 cup (grated)",
+        "caesarDressing": "1/2 cup",
+        "garlicPowder": "1/4 teaspoon",
+        "pepper": "1/4 teaspoon",
+        "oliveOil": "1 tablespoon (optional for croutons)"
       },
-      image: "https://github.com/TeJa84625/recipe-api/blob/main/images/Caesar%20Salad.jpeg?raw=true",
-      description:
-        "Crispy and fresh Caesar salad with creamy dressing. Toss romaine lettuce with Caesar dressing, sprinkle Parmesan cheese, and top with crunchy croutons. Season with pepper and garlic powder. Serve as a side dish or a light main course.",
-      code: "R003",
+      "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Caesar%20Salad.jpeg?raw=true",
+      "description": "Crispy and fresh Caesar salad with creamy dressing. Toss romaine lettuce with Caesar dressing, sprinkle Parmesan cheese, and top with crunchy croutons. Season with pepper and garlic powder. Serve as a side dish or a light main course.",
+      "code": "R003"
     },
-    Chicken: {
-      type: ["non", "meal", "normal"],
-      slots: ["chilli powder", "salt", "masala", "turmeric", "cumin"],
-      ingredients: {
-        chicken: "1 kg (cut into pieces)",
-        onion: "2 large (finely chopped)",
-        tomato: "3 medium (chopped)",
-        garlic: "5 cloves (minced)",
-        ginger: "1 inch (grated)",
-        chilliPowder: "1 teaspoon",
-        turmeric: "1/2 teaspoon",
-        cumin: "1 teaspoon",
-        garamMasala: "1 teaspoon",
-        oil: "3 tablespoons",
-        salt: "1 teaspoon (or to taste)",
-        water: "1 cup (optional for gravy)",
+    "Chicken": {
+      "type": ["non-veg", "meal", "normal"],
+      "slots": ["chilli powder", "salt", "masala", "turmeric", "cumin"],
+      "ingredients": {
+        "chicken": "1 kg (cut into pieces)",
+        "onion": "2 large (finely chopped)",
+        "tomato": "3 medium (chopped)",
+        "garlic": "5 cloves (minced)",
+        "ginger": "1 inch (grated)",
+        "chilliPowder": "1 teaspoon",
+        "turmeric": "1/2 teaspoon",
+        "cumin": "1 teaspoon",
+        "garamMasala": "1 teaspoon",
+        "oil": "3 tablespoons",
+        "salt": "1 teaspoon (or to taste)",
+        "water": "1 cup (optional for gravy)"
       },
-      image: "https://github.com/TeJa84625/recipe-api/blob/main/images/Chicken.jpeg?raw=true",
-      description:
-        "Spicy and flavorful chicken masala dish. Sauté onions, garlic, and ginger in oil until golden. Add tomatoes and cook until soft. Stir in spices and chicken, and cook until tender. Add water for gravy consistency if desired. Serve with rice or bread.",
-      code: "R004",
+      "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Chicken.jpeg?raw=true",
+      "description": "Spicy and flavorful chicken masala dish. Sauté onions, garlic, and ginger in oil until golden. Add tomatoes and cook until soft. Stir in spices and chicken, and cook until tender. Add water for gravy consistency if desired. Serve with rice or bread.",
+      "code": "R004"
     },
-    Tea: {
-      type: ["drink", "beverage", "normal"],
-      slots: ["water", "milk", "tea leaves", "sugar", "other"],
-      ingredients: {
-        water: "1 cup",
-        milk: "1 cup",
-        teaLeaves: "2 teaspoons",
-        sugar: "2 teaspoons (adjust to taste)",
-        ginger: "1-inch piece (optional)",
-        cardamom: "2 pods (optional)",
+    "Tea": {
+      "type": ["drink", "beverage", "normal"],
+      "slots": ["water", "milk", "tea leaves", "sugar", "other"],
+      "ingredients": {
+        "water": "1 cup",
+        "milk": "1 cup",
+        "teaLeaves": "2 teaspoons",
+        "sugar": "2 teaspoons (adjust to taste)",
+        "ginger": "1-inch piece (optional)",
+        "cardamom": "2 pods (optional)"
       },
-      image: "https://github.com/TeJa84625/recipe-api/blob/main/images/Tea.jpg?raw=true",
-      description:
-        "A warm and aromatic tea, perfect for rejuvenating your senses. Bring water, ginger, and cardamom to a boil. Add tea leaves and simmer. Add milk and sugar, bring to a boil, and strain into cups. Serve hot with biscuits or snacks.",
-      code: "T001",
+      "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/Tea.jpg?raw=true",
+      "description": "A warm and aromatic tea, perfect for rejuvenating your senses. Bring water, ginger, and cardamom to a boil. Add tea leaves and simmer. Add milk and sugar, bring to a boil, and strain into cups. Serve hot with biscuits or snacks.",
+      "code": "T001"
     },
-    GrilledCheeseSandwich: {
-      type: ["veg", "snack", "normal"],
-      slots: ["bread", "cheese", "butter", "other"],
-      ingredients: {
-        bread: "2 slices",
-        cheese: "2 slices",
-        butter: "1 tablespoon",
+    "GrilledCheeseSandwich": {
+      "type": ["veg", "snack", "normal"],
+      "slots": ["bread", "cheese", "butter", "other"],
+      "ingredients": {
+        "bread": "2 slices",
+        "cheese": "2 slices",
+        "butter": "1 tablespoon"
       },
-      image: "https://github.com/TeJa84625/recipe-api/blob/main/images/GrilledCheese.jpg?raw=true",
-      description:
-        "A quick and easy grilled cheese sandwich. Butter one side of each bread slice, place cheese between the unbuttered sides, and cook in a hot skillet until golden and melted. Serve warm.",
-      code: "R005",
+      "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/GrilledCheese.jpg?raw=true",
+      "description": "A quick and easy grilled cheese sandwich. Butter one side of each bread slice, place cheese between the unbuttered sides, and cook in a hot skillet until golden and melted. Serve warm.",
+      "code": "R005"
     },
-    VegetableSoup: {
-      type: ["veg", "meal", "low-calorie"],
-      slots: ["salt", "pepper", "vegetables", "stock", "other"],
-      ingredients: {
-        mixedVegetables: "2 cups (chopped)",
-        vegetableStock: "4 cups",
-        onion: "1 small (chopped)",
-        garlic: "2 cloves (minced)",
-        oliveOil: "1 tablespoon",
-        salt: "1 teaspoon",
-        pepper: "1/2 teaspoon",
+    "VegetableSoup": {
+      "type": ["veg", "meal", "low-calorie"],
+      "slots": ["salt", "pepper", "vegetables", "stock", "other"],
+      "ingredients": {
+        "mixedVegetables": "2 cups (chopped)",
+        "vegetableStock": "4 cups",
+        "onion": "1 small (chopped)",
+        "garlic": "2 cloves (minced)",
+        "oliveOil": "1 tablespoon",
+        "salt": "1 teaspoon",
+        "pepper": "1/2 teaspoon"
       },
-      image: "https://github.com/TeJa84625/recipe-api/blob/main/images/VegetableSoup.jpg?raw=true",
-      description:
-        "A healthy and nourishing vegetable soup. Sauté onions and garlic in olive oil, add vegetables, and cook for 5 minutes. Pour in the stock, bring to a boil, and simmer for 20 minutes. Season with salt and pepper and serve warm.",
-      code: "R006",
-    },
-  },
-};
+      "image": "https://github.com/TeJa84625/recipe-api/blob/main/images/VegetableSoup.jpg?raw=true",
+      "description": "A healthy and nourishing vegetable soup. Sauté onions and garlic in olive oil, add vegetables, and cook for 5 minutes. Pour in the stock, bring to a boil, and simmer for 20 minutes. Season with salt and pepper and serve warm.",
+      "code": "R006"
+    }
+  }
+}

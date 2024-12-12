@@ -19,7 +19,7 @@
       "code": "R001"
     },
     "SpaghettiBolognese": {
-      "type": ["non-veg", "meal", "normal"],
+      "type": ["non", "meal", "normal"],
       "slots": ["salt", "chilli powder", "pepper", "garlic powder", "other"],
       "ingredients": {
         "spaghetti": "300 grams",
@@ -55,7 +55,7 @@
       "code": "R003"
     },
     "Chicken": {
-      "type": ["non-veg", "meal", "normal"],
+      "type": ["non", "meal", "normal"],
       "slots": ["chilli powder", "salt", "masala", "turmeric", "cumin"],
       "ingredients": {
         "chicken": "1 kg (cut into pieces)",
